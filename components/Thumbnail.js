@@ -17,6 +17,7 @@ const Thumbnail = ({ movie }) => {
           //   height={600}
           //   width={500}
           objectFit='cover'
+          alt='hulu logo'
         />
       </div>
       <div className=''>
