@@ -3,7 +3,7 @@ import Thumbnail from './Thumbnail';
 
 const Results = ({ movies }) => {
   return (
-    <div className='grid grid-cols-1 mt-8 px-10 sm:px-20 gap-8'>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  mt-8 px-10 sm:px-20 sm:gap-8 gap-5'>
       {movies.map((movie) => (
         <Thumbnail movie={movie} key={movie.id} />
       ))}
